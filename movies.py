@@ -120,7 +120,10 @@ I would then calc an average of the values of each key in each dict in the list
 This average would be the score of the review
 """
 def main():
-    print(average_score(sentiment()))
-    print(order_hist())
+    # print(average_score(sentiment()))
+    # print(order_hist())
+    print(len(word_movie_reviews()))
+    print(len(stopwords.words("english")))
+    print(len(remove_fluff()))
 if __name__ == "__main__":
     main()
